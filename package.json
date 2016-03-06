@@ -1,0 +1,23 @@
+{
+  "name": "derek",
+  "version": "1.0.0",
+  "description": "derek.marcinyshyn.com",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "run-sequence": "^1.1.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "somewhere"
+  },
+  "author": "Derek Marcinyshyn",
+  "license": "MIT"
+}

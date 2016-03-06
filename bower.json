@@ -1,0 +1,23 @@
+{
+  "name": "derek",
+  "authors": [
+    "DerekMarcinyshyn <derek@monasheemountainmultimedia.com>"
+  ],
+  "description": "derek.marcinyshyn.com",
+  "main": "index.php",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "derek.marcinyshyn.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.0.6",
+    "font-awesome": "^4.5.0"
+  }
+}
