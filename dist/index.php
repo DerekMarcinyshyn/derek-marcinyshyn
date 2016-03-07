@@ -16,7 +16,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="//<?php echo $_SERVER['HTTP_HOST'] ?>/app.css">
     </head>
     <body ng-app="derekApp" ng-controller="MainController" layout="column">
         <div class="ribbon" layout="row" layout-align="center start">
@@ -131,7 +131,7 @@
                 <div layout="row" class="filler"></div>
             </md-content>
         </div>
-        <script src="app.js"></script>
+        <script src="//<?php echo $_SERVER['HTTP_HOST'] ?>/app.js"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
