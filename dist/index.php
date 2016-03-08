@@ -19,43 +19,39 @@
         <link rel="stylesheet" href="//<?php echo $_SERVER['HTTP_HOST'] ?>/app.css">
     </head>
     <body ng-app="derekApp" ng-controller="MainController" layout="column">
-        <div class="ribbon" layout="row" layout-align="center start">
+        <header class="ribbon" layout="row" layout-align="center start">
             <div class="header" flex="66">
                 <h1 class="md-display-3">Derek Marcinyshyn</h1>
                 <p>I live in Revelstoke, BC, Canada and am primarily focused on web development and system admin.</p>
             </div>
-        </div>
+        </header>
         <div layout-align="center start" layout="row">
             <md-content layout-padding class="md-whiteframe-3dp" flex="66" flex-xs="100" flex-sm="90">
-                <div class="main" layout="row" layout-xs="column" layout-sm="column">
-                    <div flex="50" flex-xs="100">
+                <main class="main" layout="row" layout-xs="column" layout-sm="column">
+                    <section flex="50" flex-xs="100">
                         <h2>I'm handy with...</h2>
-                        <div layout="row" layout-xs="column" layout-sm="column">
-                            <div flex="50" flex-xs="100">
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>HTML5</li>
-                                    <li>CSS3 / Sass / Less</li>
-                                    <li>Magento Enterprise</li>
-                                    <li>Laravel</li>
-                                    <li>JavaScript / Node.js</li>
-                                    <li>AngularJS</li>
-                                </ul>
-                            </div>
-                            <div flex="50" flex-xs="100">
-                                <ul>
-                                    <li>Linux / Windows / Mac</li>
-                                    <li>Raspberry Pi / Netduino</li>
-                                    <li>Git / GitHub / GitLab</li>
-                                    <li>MySQL / Redis</li>
-                                    <li>nginx / Apache</li>
-                                    <li>Piwik Analytics</li>
-                                    <li>WordPress</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div flex="50" flex-xs="100" flex-sm="100">
+                        <article layout="row" layout-xs="column" layout-sm="column">
+                            <ul flex="50" flex-xs="100">
+                                <li>PHP</li>
+                                <li>HTML5</li>
+                                <li>CSS3 / Sass / Less</li>
+                                <li>Magento Enterprise</li>
+                                <li>Laravel</li>
+                                <li>JavaScript / Node.js</li>
+                                <li>AngularJS</li>
+                            </ul>
+                            <ul flex="50" flex-xs="100">
+                                <li>Linux / Windows / Mac</li>
+                                <li>Raspberry Pi / Netduino</li>
+                                <li>Git / GitHub / GitLab</li>
+                                <li>MySQL / Redis</li>
+                                <li>nginx / Apache</li>
+                                <li>Piwik Analytics</li>
+                                <li>WordPress</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <aside flex="50" flex-xs="100" flex-sm="100">
                         <md-card class="md-whiteframe-5dp">
                             <md-card-title>
                                 <md-card-title-text>
@@ -98,37 +94,33 @@
                                 </ul>
                             </md-card-content>
                         </md-card>
-                    </div>
-                </div>
-                <div layout="row" layout-xs="column" layout-sm="column">
-                    <div flex="50" flex-xs="100">
+                    </aside>
+                </main>
+                <section layout="row" layout-xs="column" layout-sm="column">
+                    <article flex="50" flex-xs="100">
                         <h2>Tools of the trade...</h2>
                         <div layout="row" layout-xs="column" layout-sm="column">
-                            <div flex="50" flex-xs="100">
-                                <ul>
-                                    <li><a href="https://www.jetbrains.com/phpstorm/" target="_blank">PhpStorm</a></li>
-                                    <li><a href="https://www.sublimetext.com/" target="_blank">Sublime</a></li>
-                                    <li><a href="http://gulpjs.com/" target="_blank">gulp</a></li>
-                                    <li><a href="https://laravel.com/docs/master/envoy" target="_blank">Envoy Task Runner</a></li>
-                                    <li><a href="https://filezilla-project.org/" target="_blank">Filezilla</a></li>
-                                    <li><a href="https://www.mysql.com/products/workbench/" target="_blank">MySql Workbench</a></li>
-                                </ul>
-                            </div>
-                            <div flex="50" flex-xs="100">
-                                <ul>
-                                    <li><a href="http://www.adobe.com/ca/creativecloud.html" target="_blank">Adobe Creative Suite</a></li>
-                                    <li><a href="http://cpanel.com/" target="_blank">WHM / cPanel</a></li>
-                                    <li><a href="http://plesk.com/" target="_blank">Plesk</a></li>
-                                    <li><a href="http://bower.io/" target="_blank">bower</a></li>
-                                    <li><a href="https://www.npmjs.com/" target="_blank">npm</a></li>
-                                    <li><a href="https://getcomposer.org/" target="_blank">Composer</a></li>
-                                    <li><a href="https://packagist.org/" target="_blank">Packagist</a></li>
-                                </ul>
-                            </div>
+                            <ul flex="50" flex-xs="100">
+                                <li><a href="https://www.jetbrains.com/phpstorm/" target="_blank">PhpStorm</a></li>
+                                <li><a href="https://www.sublimetext.com/" target="_blank">Sublime</a></li>
+                                <li><a href="http://gulpjs.com/" target="_blank">gulp</a></li>
+                                <li><a href="https://laravel.com/docs/master/envoy" target="_blank">Envoy Task Runner</a></li>
+                                <li><a href="https://filezilla-project.org/" target="_blank">Filezilla</a></li>
+                                <li><a href="https://www.mysql.com/products/workbench/" target="_blank">MySql Workbench</a></li>
+                            </ul>
+                            <ul flex="50" flex-xs="100">
+                                <li><a href="http://www.adobe.com/ca/creativecloud.html" target="_blank">Adobe Creative Suite</a></li>
+                                <li><a href="http://cpanel.com/" target="_blank">WHM / cPanel</a></li>
+                                <li><a href="http://plesk.com/" target="_blank">Plesk</a></li>
+                                <li><a href="http://bower.io/" target="_blank">bower</a></li>
+                                <li><a href="https://www.npmjs.com/" target="_blank">npm</a></li>
+                                <li><a href="https://getcomposer.org/" target="_blank">Composer</a></li>
+                                <li><a href="https://packagist.org/" target="_blank">Packagist</a></li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-                <div layout="row" class="filler"></div>
+                    </article>
+                </section>
+                <section layout="row" class="filler"></section>
             </md-content>
         </div>
         <script src="//<?php echo $_SERVER['HTTP_HOST'] ?>/app.js"></script>
@@ -137,10 +129,8 @@
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
             ga('create', 'UA-74761685-2', 'auto');
             ga('send', 'pageview');
-
         </script>
     </body>
 </html>
