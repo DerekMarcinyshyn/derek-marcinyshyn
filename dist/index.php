@@ -25,9 +25,9 @@
                 <p>I live in Revelstoke, BC, Canada and am primarily focused on web development and system admin.</p>
             </div>
         </header>
-        <div layout-align="center start" layout="row" layout-fill>
+        <div layout-align="center start" layout="row">
             <md-content layout-padding class="md-whiteframe-3dp" flex="66" flex-xs="100" flex-sm="90">
-                <main class="main" layout="row" layout-xs="column" layout-sm="column">
+                <main class="main" layout="row" layout-xs="column" layout-sm="column" layout-fill>
                     <section flex="50" flex-xs="100">
                         <h2>I'm handy with...</h2>
                         <article layout="row" layout-xs="column" layout-sm="column">
@@ -51,7 +51,7 @@
                             </ul>
                         </article>
                     </section>
-                    <aside flex="50" flex-xs="100" flex-sm="100">
+                    <aside flex="50" flex-xs="100" flex-sm="100" layout-fill>
                         <md-card class="md-whiteframe-5dp">
                             <md-card-title>
                                 <md-card-title-text>
