@@ -25,7 +25,7 @@
                 <p>I live in Revelstoke, BC, Canada and am primarily focused on web development and system admin.</p>
             </div>
         </header>
-        <div layout-align="center start" layout="row">
+        <div layout-align="center start" layout="row" layout-fill>
             <md-content layout-padding class="md-whiteframe-3dp" flex="66" flex-xs="100" flex-sm="90">
                 <main class="main" layout="row" layout-xs="column" layout-sm="column">
                     <section flex="50" flex-xs="100">
@@ -35,9 +35,9 @@
                                 <li>PHP</li>
                                 <li>HTML5</li>
                                 <li>CSS3 / Sass / Less</li>
+                                <li>JavaScript / Node.js</li>
                                 <li>Magento Enterprise</li>
                                 <li>Laravel</li>
-                                <li>JavaScript / Node.js</li>
                                 <li>AngularJS</li>
                             </ul>
                             <ul flex="50" flex-xs="100">
@@ -96,7 +96,7 @@
                         </md-card>
                     </aside>
                 </main>
-                <section layout="row" layout-xs="column" layout-sm="column">
+                <section layout="row" layout-xs="column" layout-sm="column" layout-fill>
                     <article flex="50" flex-xs="100">
                         <h2>Tools of the trade...</h2>
                         <div layout="row" layout-xs="column" layout-sm="column">
