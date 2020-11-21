@@ -120,8 +120,8 @@
                     nursery in rural Manitoba. After studying Computer Science at University of Manitoba, I decided to
                     try out the ski bum lifestyle in Banff and Whistler.</p>
                 <p>For a number of years, I skied in the winter and river raft guided in the summers.</p>
-                <p>The ski bumming lead to becoming a certified ACMG ski guide and moving to Revelstoke. After
-                    15 years of ski guiding and having children, I circled back to programming full-time.</p>
+                <p>The ski bumming lead to becoming a certified ACMG ski guide and moving to Revelstoke.</p>
+                <p>After 15 years of ski guiding, I circled back to programming full-time.</p>
                 <p>I have worked on many projects over the years, ranging from business websites to custom digital
                     signage to large ecommerce sites to custom application development.</p>
                 <p>Our family enjoys skiing, sailing, hiking, and climbing in and around British Columbia.</p>
